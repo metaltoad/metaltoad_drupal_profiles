@@ -24,10 +24,10 @@ projects[] = imagecache
 projects[] = imageapi
 projects[] = date
 
-projects[] = pathauto
+projects[pathauto] = "1.x-dev"
 projects[] = token
 projects[] = globalredirect
-projects[path_redirect] = "1.x-dev"
+projects[] = path_redirect
 projects[] = xmlsitemap
 
 projects[] = menu_block
