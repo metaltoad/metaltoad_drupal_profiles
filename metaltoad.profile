@@ -55,9 +55,8 @@ function metaltoad_profile_modules() {
     'token',
     'globalredirect',
     'path_redirect',
-    // Hmmm, xmlsitemaps seems to crash the installer
-    //'xmlsitemap',
-    //'xmlsitemap_node',
+    'xmlsitemap',
+    'xmlsitemap_node',
 
     // Navigation
     'menu_block',

@@ -28,7 +28,10 @@ projects[pathauto] = "1.x-dev"
 projects[] = token
 projects[] = globalredirect
 projects[] = path_redirect
-projects[] = xmlsitemap
+
+# http://drupal.org/node/717146
+projects[xmlsitemap] = 1.2
+projects[xmlsitemap][patch][] = http://drupal.org/files/issues/xmlsitemap_hook_requirements.patch
 
 projects[] = menu_block
 projects[] = search404
