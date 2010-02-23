@@ -38,4 +38,4 @@ drush dl --package-handler=cvs --destination=sites/all/modules/contrib masquerad
 drush dl --package-handler=cvs --destination=sites/all/modules/contrib views_bulk_operations
 
 drush dl --package-handler=cvs zen
-drush dl --package-handler=cvs rootkit
+drush dl --package-handler=cvs rootcandy
