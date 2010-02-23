@@ -14,6 +14,7 @@ $drush dl --package-handler=cvs --destination=sites/all/modules/contrib advanced
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib ie6update
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib role_delegation
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib adminrole
+$drush dl --package-handler=cvs --destination=sites/all/modules/contrib override_node_options
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib cck
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib views
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib filefield

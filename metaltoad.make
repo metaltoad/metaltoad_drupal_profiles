@@ -14,6 +14,7 @@ projects[] = ie6update
 
 projects[] = role_delegation
 projects[] = adminrole
+projects[] = override_node_options
 
 projects[] = cck
 projects[] = views

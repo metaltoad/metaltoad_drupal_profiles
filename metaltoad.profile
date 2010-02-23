@@ -33,6 +33,7 @@ function metaltoad_profile_modules() {
     // Permissions + security
     'role_delegation',
     'adminrole',
+    'override_node_options',
 
     // Content
     'content',
