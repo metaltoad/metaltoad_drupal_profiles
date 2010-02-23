@@ -8,7 +8,6 @@ projects[] = better_formats
 projects[] = diff
 
 projects[] = hierarchical_select
-projects[] = betterselect
 projects[] = advanced_help
 projects[] = ie6update
 

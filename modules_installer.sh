@@ -9,7 +9,6 @@ $drush dl --package-handler=cvs --destination=sites/all/modules/contrib cvs_depl
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib better_formats
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib diff
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib hierarchical_select
-$drush dl --package-handler=cvs --destination=sites/all/modules/contrib betterselect
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib advanced_help
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib ie6update
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib role_delegation
@@ -35,9 +34,6 @@ $drush dl --package-handler=cvs --destination=sites/all/modules/contrib devel
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib coder
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib masquerade
 $drush dl --package-handler=cvs --destination=sites/all/modules/contrib views_bulk_operations
-
-$drush dl --package-handler=cvs --destination=sites/all/modules/contrib calendar
-$drush dl --package-handler=cvs --destination=sites/all/modules/contrib content_type_selector
 
 $drush dl --package-handler=cvs zen
 $drush dl --package-handler=cvs rootkit
