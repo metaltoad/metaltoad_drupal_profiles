@@ -42,6 +42,9 @@ function metaltoad_create_roles() {
   );
 
   $perms['Editor'] = array(
+    'view advanced help index',
+    'view advanced help popup',
+    'view advanced help topic',
     'access comments',
     'administer comments',
     'post comments',
@@ -56,6 +59,9 @@ function metaltoad_create_roles() {
   );
 
   $perms['Publisher'] = array(
+    'view advanced help index',
+    'view advanced help popup',
+    'view advanced help topic',
     'administer blocks',
     'access comments',
     'administer comments',
@@ -71,6 +77,9 @@ function metaltoad_create_roles() {
   );
 
   $perms['Administrator'] = array(
+    'view advanced help index',
+    'view advanced help popup',
+    'view advanced help topic',
     'access administration menu',
     'display drupal links',
     'administer blocks',
