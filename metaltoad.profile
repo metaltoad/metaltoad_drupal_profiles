@@ -152,6 +152,13 @@ function metaltoad_profile_tasks(&$task, $url) {
 
   // Update the admin role with all current available permissions.
   adminrole_update_permissions();
+  // After much discussion, the name "Programmer" was chosen for the super-admin role.
+  // This is to distingish it from the end-user admin role, and also to make it sound unappealing to unqualified users.
+  db_query("UPDATE {role} SET name = 'Programmer' WHERE name = 'administrator'");
+
+  // Create some default roles.
+  require_once(drupal_get_path('profile', 'metaltoad') . '/permissions.inc');
+  metaltoad_create_roles();
 
   // Update the menu router information.
   menu_rebuild();
