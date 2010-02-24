@@ -24,9 +24,6 @@ function metaltoad_create_roles() {
 
   // rid 2 is authenticated user
   $perms[2] = array(
-    'view advanced help index',
-    'view advanced help popup',
-    'view advanced help topic',
     'collapse format fieldset by default',
     'collapsible format selection',
     'show format selection for blocks',
@@ -40,17 +37,8 @@ function metaltoad_create_roles() {
     'access content',
     'search content',
     'use advanced search',
-    'access administration pages',
-    'access site reports',
-    'administer site configuration',
-    'administer taxonomy',
     'access user profiles',
-    'administer users',
     'change own username',
-    'access all views',
-    'administer views',
-    'override node settings',
-    'override profile settings',
   );
 
   $perms['Editor'] = array(
@@ -101,6 +89,15 @@ function metaltoad_create_roles() {
     'assign Administrator role',
     'assign Editor role',
     'assign Publisher role',
+    'access administration pages',
+    'access site reports',
+    'administer site configuration',
+    'administer taxonomy',
+    'administer users',
+    'access all views',
+    'administer views',
+    'override node settings',
+    'override profile settings',
   );
 
   foreach ($perms as $role => $permissions) {
