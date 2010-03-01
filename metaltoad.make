@@ -30,7 +30,7 @@ projects[] = token
 projects[] = globalredirect
 projects[] = path_redirect
 
-# http://drupal.org/node/717146
+; http://drupal.org/node/717146
 projects[xmlsitemap] = 1.2
 projects[xmlsitemap][patch][] = http://drupal.org/files/issues/xmlsitemap_hook_requirements.patch
 
