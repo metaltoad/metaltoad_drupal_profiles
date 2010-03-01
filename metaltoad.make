@@ -1,6 +1,7 @@
 core = 6.x
 
-projects[] = drupal
+; gzip common text formats.  http://drupal.org/node/101227
+projects[drupal][patch][] = http://drupal.org/files/issues/mod_deflate.patch
 
 projects[] = admin_menu
 projects[] = cvs_deploy
