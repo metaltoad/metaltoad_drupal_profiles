@@ -19,6 +19,9 @@ function metaltoad_create_roles() {
     'access content',
     'search content',
     'use advanced search',
+    'search by node type',
+    'search by category',
+    'use keyword search',
     'access user profiles',
   );
 
@@ -37,6 +40,9 @@ function metaltoad_create_roles() {
     'access content',
     'search content',
     'use advanced search',
+    'search by node type',
+    'search by category',
+    'use keyword search',
     'access user profiles',
     'change own username',
   );
