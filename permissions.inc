@@ -113,6 +113,7 @@ function metaltoad_create_roles() {
     'administer views',
     'override node settings',
     'override profile settings',
+    'administer search',
   );
 
   foreach ($perms as $role => $permissions) {
