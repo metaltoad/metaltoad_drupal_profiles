@@ -69,7 +69,6 @@ function metaltoad_profile_modules() {
     'coder',
     'masquerade',
     'views_bulk_operations',
-    'drupalforfirebug',
   );
 }
 

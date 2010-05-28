@@ -42,7 +42,6 @@ projects[] = devel
 projects[] = coder
 projects[] = masquerade
 projects[] = views_bulk_operations
-projects[] = drupalforfirebug
 
 projects[] = rootcandy
 projects[] = zen
