@@ -11,6 +11,7 @@ projects[] = diff
 projects[] = hierarchical_select
 projects[] = advanced_help
 projects[] = ie6update
+projects[] = vertical_tabs
 
 projects[] = role_delegation
 projects[] = adminrole

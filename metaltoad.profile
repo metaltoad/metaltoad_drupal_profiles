@@ -29,6 +29,7 @@ function metaltoad_profile_modules() {
     'hs_menu',
     'advanced_help',
     'ie6update',
+    'vertical_tabs',
 
     // Permissions + security
     'role_delegation',
