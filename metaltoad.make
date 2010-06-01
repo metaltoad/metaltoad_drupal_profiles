@@ -39,6 +39,7 @@ projects[] = search404
 projects[] = search_config
 
 projects[] = devel
+projects[] = devel_themer
 projects[] = coder
 projects[] = masquerade
 projects[] = views_bulk_operations

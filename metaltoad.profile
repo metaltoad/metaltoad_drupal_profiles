@@ -66,6 +66,7 @@ function metaltoad_profile_modules() {
 
     // Devel + Testing
     'devel',
+    'devel_themer',
     'coder',
     'masquerade',
     'views_bulk_operations',
