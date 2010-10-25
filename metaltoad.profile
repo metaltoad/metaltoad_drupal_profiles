@@ -17,7 +17,7 @@ function metaltoad_profile_modules() {
     'search',
 
     // admin tools
-    'admin_menu',
+    'admin_menu_toolbar',
     'cvs_deploy',
 
     // editing
@@ -51,6 +51,7 @@ function metaltoad_profile_modules() {
     'date_popup',
     'date_timezone',
     'date',
+    'jquery_ui',
 
     // Search Engine Optimization
     'pathauto',
@@ -67,7 +68,7 @@ function metaltoad_profile_modules() {
 
     // Devel + Testing
     'devel',
-    'devel_themer',
+    // 'devel_themer',
     'coder',
     'masquerade',
     'views_bulk_operations',
