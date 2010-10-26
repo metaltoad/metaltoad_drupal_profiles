@@ -151,11 +151,7 @@ function metaltoad_profile_tasks(&$task, $url) {
   variable_set('pathauto_update_action', '3');
 
   // Set admin theme.
-  variable_set('admin_theme', 'rootcandy_dark');
-  $rootcandy_settings = variable_get('theme_rootcandy_dark_settings', array());
-  $rootcandy_settings['rootcandy_navigation_source_2'] = '_rootcandy_default_navigation';
-  $rootcandy_settings['rootcandy_hide_panel'] = 1;
-  variable_set('theme_rootcandy_dark_settings', $rootcandy_settings);
+  variable_set('admin_theme', 'rubik');
 
   // Update the admin role with all current available permissions.
   adminrole_update_permissions();

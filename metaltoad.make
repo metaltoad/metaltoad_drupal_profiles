@@ -3,7 +3,7 @@ core = 6.x
 ; gzip common text formats.  http://drupal.org/node/101227
 projects[drupal][patch][] = http://drupal.org/files/issues/mod_deflate.patch
 
-projects[admin_menu] = '3.0-alpha4' 
+projects[admin_menu] = '3.0-alpha4'
 projects[] = cvs_deploy
 projects[] = better_formats
 projects[] = diff
@@ -31,7 +31,7 @@ projects[] = token
 projects[] = globalredirect
 projects[] = path_redirect
 
-; http://drupal.org/node/717146
+; http://drupal.org/node/717146 - remove this patch when 1.3 is released
 projects[xmlsitemap] = 1.2
 projects[xmlsitemap][patch][] = http://drupal.org/files/issues/xmlsitemap_hook_requirements.patch
 
@@ -45,7 +45,8 @@ projects[] = coder
 projects[] = masquerade
 projects[] = views_bulk_operations
 
-projects[] = rootcandy
+projects[] = tao
+projects[] = rubik
 projects[] = zen
 
 ; jQuery UI
