@@ -123,7 +123,8 @@ function metaltoad_create_roles() {
     else {
       db_query("INSERT INTO {role} SET name = '%s'", $role);
       $rid = db_result(db_query("SELECT rid from {role} WHERE name = '%s'", $role));
-      better_formats_new_role(); // Make sure better_formats is aware of the new role, see http://drupal.org/node/731810
+      $fake_form_state = array(); // $form_state is passed by reference so we need an actual variable
+      better_formats_new_role(array(), $fake_form_state); // Make sure better_formats is aware of the new role, see http://drupal.org/node/731810
     }
 
     db_query("INSERT INTO {permission} SET rid = %d, perm = '%s'", $rid, implode(',', $permissions));
