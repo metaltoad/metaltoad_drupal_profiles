@@ -17,7 +17,7 @@ function metaltoad_profile_modules() {
     'search',
 
     // admin tools
-    'admin_menu'
+    'admin_menu',
     'admin_menu_toolbar',
     'cvs_deploy',
 
