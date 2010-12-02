@@ -1,3 +1,4 @@
+api = 2
 core = 6.x
 
 ; gzip common text formats.  http://drupal.org/node/101227
