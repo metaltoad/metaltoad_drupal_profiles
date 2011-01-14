@@ -5,7 +5,6 @@ core = 6.x
 projects[drupal][patch][] = http://drupal.org/files/issues/mod_deflate.patch
 
 projects[admin_menu] = '3.0-alpha4'
-projects[] = cvs_deploy
 projects[] = better_formats
 projects[] = diff
 
