@@ -116,6 +116,9 @@ function metaltoad_create_roles() {
     'administer search',
   );
 
+  $fake_form_state = array(); // $form_state is passed by reference so we need an actual variable
+  better_formats_new_role(array(), $fake_form_state); // Make sure better_formats is aware of the adminrole, see http://drupal.org/node/731810
+
   foreach ($perms as $role => $permissions) {
     if (is_numeric($role)) {
       $rid = $role;
