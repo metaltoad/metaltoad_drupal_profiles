@@ -1,0 +1,60 @@
+name = Metal Toad
+description = Install with commonly used features pre-configured.
+core = 7.x
+
+; Core modules
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Admin tools
+dependencies[] = admin_menu
+dependencies[] = better_formats
+dependencies[] = diff
+dependencies[] = role_delegation
+
+; User experience
+dependencies[] = hierarchical_select
+dependencies[] = advanced_help
+dependencies[] = ie6update
+
+; Content
+dependencies[] = views
+dependencies[] = transliteration
+dependencies[] = date
+dependencies[] = menu_block
+
+; Search engine optimization
+dependencies[] = pathauto
+dependencies[] = token
+dependencies[] = redirect
+dependencies[] = xmlsitemap
+
+; Development and testing
+dependencies[] = devel
+dependencies[] = devel_themer
+dependencies[] = coder
+dependencies[] = masquerade
+
+; Themes
+dependencies[] = tao
+dependencies[] = rubik
+dependencies[] = zen
+
+files[] = metaltoad.profile
