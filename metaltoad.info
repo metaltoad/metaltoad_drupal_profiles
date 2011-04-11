@@ -35,6 +35,7 @@ dependencies[] = ie6update
 
 ; Content
 dependencies[] = views
+dependencies[] = ctools
 dependencies[] = transliteration
 dependencies[] = date
 dependencies[] = menu_block

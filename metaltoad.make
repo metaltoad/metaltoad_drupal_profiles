@@ -13,6 +13,7 @@ projects[] = ie6update
 
 ; Content
 projects[] = views
+projects[] = ctools
 projects[] = transliteration
 projects[] = date
 projects[] = menu_block
