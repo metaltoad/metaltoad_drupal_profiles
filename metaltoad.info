@@ -51,9 +51,4 @@ dependencies[] = devel_themer
 dependencies[] = coder
 dependencies[] = masquerade
 
-; Themes
-dependencies[] = tao
-dependencies[] = rubik
-dependencies[] = zen
-
 files[] = metaltoad.profile
