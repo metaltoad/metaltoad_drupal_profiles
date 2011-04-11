@@ -25,7 +25,6 @@ dependencies[] = rdf
 
 ; Admin tools
 dependencies[] = admin_menu
-dependencies[] = better_formats
 dependencies[] = diff
 dependencies[] = role_delegation
 

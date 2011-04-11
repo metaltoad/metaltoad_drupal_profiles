@@ -3,7 +3,6 @@ core = 7.x
 
 ; Admin tools
 projects[] = admin_menu
-projects[] = better_formats
 projects[] = diff
 projects[] = role_delegation
 
