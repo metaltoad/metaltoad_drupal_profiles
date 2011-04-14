@@ -6,7 +6,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function standard_install() {
+function metaltoad_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
