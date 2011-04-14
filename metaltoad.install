@@ -65,7 +65,7 @@ function metaltoad_install() {
 
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'zen');
-  $admin_theme = 'seven';
+  $admin_theme = 'rubik';
   $values = array(
     array(
       'module' => 'system',
@@ -227,8 +227,8 @@ function metaltoad_install() {
 
   // Enable default permissions for system roles.
   $filtered_html_permission = filter_permission_name($filtered_html_format);
-  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments', $filtered_html_permission));
-  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'access comments', 'post comments', 'skip comment approval', $filtered_html_permission));
+  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', $filtered_html_permission));
+  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', $filtered_html_permission));
 
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
@@ -256,18 +256,19 @@ function metaltoad_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'seven')
+    ->condition('name', $admin_theme)
     ->execute();
-  variable_set('admin_theme', 'seven');
+  variable_set('admin_theme', $admin_theme);
   variable_set('node_admin_theme', '1');
 
   // Configure dblog module.
   variable_set('dblog_row_limit', 100000);
 
   // Configure pathauto
-  variable_set('pathauto_node_pattern', '[node:type]/[node:title]');
+  variable_set('pathauto_node_pattern', '[node:content-type]/[node:title]');
   variable_set('pathauto_node_page_pattern', '[node:title]');
-  variable_set('pathauto_update_action', '3'); // PATHAUTO_UPDATE_ACTION_REDIRECT
+  // @FIXME - waiting for redirect integartion to be ported - http://drupal.org/node/971552
+  // variable_set('pathauto_update_action', '3'); // PATHAUTO_UPDATE_ACTION_REDIRECT
 
   // Create some default roles.
   // @FIXME - update to D7
