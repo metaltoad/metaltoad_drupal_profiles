@@ -34,7 +34,7 @@ projects[] = xmlsitemap
 
 projects[] = menu_block
 projects[] = search404
-projects[] = search_config
+projects[search_config] = '1.6'
 
 projects[] = devel
 projects[] = devel_themer
