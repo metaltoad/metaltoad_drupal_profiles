@@ -9,7 +9,7 @@ function metaltoad_form_install_configure_form_alter(&$form, $form_state) {
 
   // Set the admin username / mail
   $form['admin_account']['account']['name']['#default_value'] = 'admin';
-  $form['admin_account']['account']['mail']['#default_value'] = 'info@metaltoad.com';
+  $form['admin_account']['account']['mail']['#default_value'] = 'default-user@metaltoad.com';
 
 
   // Convert the password to a plain text field, and suggest an auto-generated password.
