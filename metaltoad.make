@@ -9,7 +9,6 @@ projects[] = role_delegation
 ; User experience
 projects[] = hierarchical_select
 projects[] = advanced_help
-projects[] = ie6update
 
 ; Content
 projects[] = views

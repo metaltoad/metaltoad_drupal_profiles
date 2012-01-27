@@ -31,7 +31,6 @@ dependencies[] = role_delegation
 ; User experience
 dependencies[] = hierarchical_select
 dependencies[] = advanced_help
-dependencies[] = ie6update
 
 ; Content
 dependencies[] = views
@@ -45,6 +44,7 @@ dependencies[] = pathauto
 dependencies[] = token
 dependencies[] = redirect
 dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_node
 
 ; Development and testing
 dependencies[] = devel
