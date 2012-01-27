@@ -34,6 +34,7 @@ dependencies[] = advanced_help
 
 ; Content
 dependencies[] = views
+dependencies[] = views_ui
 dependencies[] = ctools
 dependencies[] = transliteration
 dependencies[] = date
