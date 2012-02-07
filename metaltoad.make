@@ -32,4 +32,4 @@ projects[] = masquerade
 ; Themes
 projects[] = tao
 projects[] = rubik
-projects[] = zen
+projects[] = boilerplate
