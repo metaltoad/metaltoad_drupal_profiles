@@ -40,6 +40,9 @@ dependencies[] = transliteration
 dependencies[] = date
 dependencies[] = menu_block
 
+; Security
+dependencies[] = securepages
+
 ; Search engine optimization
 dependencies[] = pathauto
 dependencies[] = token

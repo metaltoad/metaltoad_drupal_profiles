@@ -17,6 +17,9 @@ projects[] = transliteration
 projects[] = date
 projects[] = menu_block
 
+; Security
+projects[] = securepages
+
 ; Search engine optimization
 projects[] = pathauto
 projects[] = token

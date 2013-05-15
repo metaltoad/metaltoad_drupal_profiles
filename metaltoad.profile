@@ -26,5 +26,26 @@ function metaltoad_form_install_configure_form_alter(&$form, $form_state) {
 
   // Set the country to U.S.
   $form['server_settings']['site_default_country']['#default_value'] = 'US';
+
+  $form['#submit'][] = 'metaltoad_configure_form_submit';
 }
 
+function metaltoad_configure_form_submit() {
+  // Configure securepages
+  global $is_https;
+
+  variable_set('securepages_enable', 1);
+  variable_set('securepages_pages', "user\nuser/login\nuser/password*\nuser/reset/*");
+  variable_set('securepages_ignore', "batch/*");
+  variable_set('securepages_roles', array(2 => 2));
+  variable_set('securepages_secure', 1);
+  variable_set('securepages_switch', TRUE);
+
+  // Force rebuild a a secure session, even if the installer wasn't run over SSL.
+  if (!$is_https) {
+    session_name('S' . session_name());
+    $GLOBALS['is_https'] = TRUE;
+  }
+  variable_set('https', TRUE);
+  drupal_session_regenerate();
+}

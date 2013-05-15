@@ -267,6 +267,7 @@ function metaltoad_install() {
   // Configure pathauto
   variable_set('pathauto_node_pattern', '[node:content-type]/[node:title]');
   variable_set('pathauto_node_page_pattern', '[node:title]');
+
   // @FIXME - waiting for redirect integartion to be ported - http://drupal.org/node/971552
   // variable_set('pathauto_update_action', '3'); // PATHAUTO_UPDATE_ACTION_REDIRECT
 
