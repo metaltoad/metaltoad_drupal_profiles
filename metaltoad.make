@@ -30,7 +30,10 @@ projects[xmlsitemap][type] = "module"
 projects[devel][type] = "module"
 projects[devel_themer][type] = "module"
 projects[coder][type] = "module"
+projects[coder][download][branch] = "7.x-2.x"
 projects[masquerade][type] = "module"
+projects[simplehtmldom][type] = "module"
+projects[simplehtmldom][download][branch] = "7.x-1.x"
 
 ; Themes
 projects[tao][type] = "theme"
