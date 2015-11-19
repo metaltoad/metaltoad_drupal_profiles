@@ -33,6 +33,10 @@ projects[menu_block][type] = "module"
 ; Security
 projects[securepages][type] = "module"
 
+; Performance
+projects[memcache][type] = "module"
+projects[apdqc][type] = "module"
+
 ; Search engine optimization
 projects[pathauto][type] = "module"
 projects[token][type] = "module"
