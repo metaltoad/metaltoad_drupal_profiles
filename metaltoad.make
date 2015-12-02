@@ -55,6 +55,5 @@ projects[simplehtmldom][type] = "module"
 projects[simplehtmldom][download][branch] = "7.x-1.x"
 
 ; Themes
-projects[tao][type] = "theme"
-projects[rubik][type] = "theme"
-projects[boilerplate][type] = "theme"
+projects[adminimal_theme][type] = "theme"
+projects[bootstrap][type] = "theme"

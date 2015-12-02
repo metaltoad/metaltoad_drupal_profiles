@@ -64,8 +64,8 @@ function metaltoad_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'zen');
-  $admin_theme = 'rubik';
+  $default_theme = variable_get('theme_default', 'bootstrap');
+  $admin_theme = 'adminimal';
   $values = array(
     array(
       'module' => 'system',
