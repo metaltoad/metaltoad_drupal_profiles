@@ -257,7 +257,7 @@ function metaltoad_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', $admin_theme)
+    ->condition('name', array($admin_theme, $default_theme))
     ->execute();
   variable_set('admin_theme', $admin_theme);
   variable_set('node_admin_theme', '1');
