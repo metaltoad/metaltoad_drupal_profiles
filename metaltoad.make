@@ -2,6 +2,7 @@ api = 2
 core = 7.x
 
 ; Admin tools
+projects[libraries][type] = "module"
 projects[navbar][type] = "module"
 projects[diff][type] = "module"
 projects[role_delegation][type] = "module"

@@ -22,6 +22,7 @@ dependencies[] = file
 dependencies[] = rdf
 
 ; Admin tools
+dependencies[] = libraries
 dependencies[] = navbar
 dependencies[] = diff
 dependencies[] = role_delegation
