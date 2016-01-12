@@ -33,9 +33,15 @@ dependencies:
   - taxonomy
   - dblog
   - search
+  - shortcut
+  - toolbar
   - field_ui
   - file
   - rdf
   - views
   - views_ui
+  - tour
   - automated_cron
+themes:
+  - bartik
+  - seven
