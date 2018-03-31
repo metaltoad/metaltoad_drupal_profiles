@@ -47,4 +47,4 @@ dependencies:
   - components # For theme Twig component libraries (e.g., @atoms, @molecules)
 themes:
   - bartik
-  - seven
+  - adminimal_theme
