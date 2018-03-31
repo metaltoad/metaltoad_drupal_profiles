@@ -9,7 +9,6 @@ distribution:
 # Required modules
 dependencies:
   - node
-  - history
   - block
   - breakpoint
   - ckeditor
@@ -40,7 +39,12 @@ dependencies:
   - rdf
   - views
   - views_ui
-  - tour
+  - admin_toolbar
+  - entity
+  - entity_browser
+  - paragraphs
+  - search_api_solr
+  - components # For theme Twig component libraries (e.g., @atoms, @molecules)
 themes:
   - bartik
   - seven
