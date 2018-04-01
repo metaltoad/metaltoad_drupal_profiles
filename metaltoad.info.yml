@@ -39,10 +39,13 @@ dependencies:
   - rdf
   - views
   - views_ui
+  # Contrib
   - admin_toolbar
   - entity
   - entity_browser
   - paragraphs
+  - entity_reference_revisions
+  - search_api
   - search_api_solr
   - components # For theme Twig component libraries (e.g., @atoms, @molecules)
 themes:
