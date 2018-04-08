@@ -8,13 +8,13 @@ distribution:
 
 # Required modules
 dependencies:
+  # Core
   - node
   - block
   - breakpoint
   - ckeditor
   - color
   - config
-  - comment
   - contextual
   - contact
   - menu_link_content
@@ -24,6 +24,7 @@ dependencies:
   - editor
   - help
   - image
+  - media
   - menu_ui
   - options
   - path
