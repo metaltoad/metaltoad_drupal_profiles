@@ -41,12 +41,27 @@ dependencies:
   - views_ui
   # Contrib
   - admin_toolbar
+  - embed
   - entity
+  - entityqueue
   - entity_browser
-  - paragraphs
+  - entity_embed
   - entity_reference_revisions
+  - paragraphs
+  - paragraphs_edit
+  - inline_entity_form
+  - taxonomy_access_fix
+  - role_delegation
+  - token
   - search_api
   - search_api_solr
+  - metatag
+  - redirect
+  - pathauto
+  - simple_sitemap
+  - google_analytics
+  - system_status
+  - security_review
   - components # For theme Twig component libraries (e.g., @atoms, @molecules)
 themes:
   - bartik
